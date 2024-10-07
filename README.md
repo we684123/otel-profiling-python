@@ -16,6 +16,16 @@ Add the following package to your project:
 pip install pyroscope-otel
 ```
 
+for **this repo with tag**:
+
+```shell
+pip install git+https://github.com/we684123/otel-profiling-python.git@otel_v1.27.0
+```
+
+```shell
+poetry add git+https://github.com/we684123/otel-profiling-python.git@otel_v1.27.0
+```
+
 Register the `PyroscopeSpanProcessor` in your OpenTelemetry integration:
 
 ```python
