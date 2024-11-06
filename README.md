@@ -19,11 +19,11 @@ pip install pyroscope-otel
 for **this repo with tag**:
 
 ```shell
-pip install git+https://github.com/we684123/otel-profiling-python.git@otel_v1.27.0
+pip install git+https://github.com/we684123/otel-profiling-python.git@otel_over_v1.27.0
 ```
 
 ```shell
-poetry add git+https://github.com/we684123/otel-profiling-python.git@otel_v1.27.0
+poetry add git+https://github.com/we684123/otel-profiling-python.git@otel_over_v1.27.0
 ```
 
 Register the `PyroscopeSpanProcessor` in your OpenTelemetry integration:
